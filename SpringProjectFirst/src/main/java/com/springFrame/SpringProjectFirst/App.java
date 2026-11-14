@@ -14,6 +14,11 @@ public class App
     	ApplicationContext context= new ClassPathXmlApplicationContext("config.xml");
     	Student student=(Student) context.getBean("stud");
         student.study();
-    	System.out.println( "Hello World!" );
+        System.out.println(student.getAge());
+        
+        
+      //  Books books= (Books) context.getBean("book");
+        
+//    	System.out.println( "Hello World!" );
     }
 }

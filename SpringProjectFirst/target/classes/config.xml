@@ -4,5 +4,10 @@
 
     <!-- bean definitions here -->
 
-	<bean id="stud" class="com.springFrame.SpringProjectFirst.Student"></bean>
+	<bean id="stud" class="com.springFrame.SpringProjectFirst.Student" scope="prototype">
+		<property name="age" value="21"></property>
+		<property name="books" ref="book"></property>
+	</bean>
+	<bean id="book" class="com.springFrame.SpringProjectFirst.Books"></bean>
+	
 </beans>
