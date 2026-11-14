@@ -1,0 +1,16 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+
+	<bean name="alien" class="com.computer.ComputerSpringProject.Alien" autowire="byName">
+	
+	
+	</bean>
+
+	<bean name="lap" class="com.computer.ComputerSpringProject.Laptop"></bean>
+
+	<bean name="comm" class="com.computer.ComputerSpringProject.Desktop"></bean>
+
+</beans>
