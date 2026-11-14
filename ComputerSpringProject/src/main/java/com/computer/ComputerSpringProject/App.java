@@ -15,6 +15,7 @@ public class App
     	Alien aliens=(Alien) context.getBean("alien");
     	aliens.code();
     	
+    	Laptop laps= (Laptop) context.getBean("lap");
         System.out.println( "Hello World!" );
     }
 }

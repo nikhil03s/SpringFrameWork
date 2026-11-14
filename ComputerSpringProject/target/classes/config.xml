@@ -9,7 +9,7 @@
 	
 	</bean>
 
-	<bean name="lap" class="com.computer.ComputerSpringProject.Laptop"></bean>
+	<bean name="lap" class="com.computer.ComputerSpringProject.Laptop" lazy-init="true"></bean>
 
 	<bean name="comm" class="com.computer.ComputerSpringProject.Desktop"></bean>
 
