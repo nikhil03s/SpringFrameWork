@@ -15,9 +15,9 @@ public class App
     {
     	
     	ApplicationContext context=new AnnotationConfigApplicationContext(AppJavaConfig.class);
-    	Desktop dt=context.getBean("com1",Desktop.class);
+    	Desktop dt=context.getBean(Desktop.class);
     	dt.compile();
-    	Desktop dt2=context.getBean("com1",Desktop.class);
+    	Desktop dt2=context.getBean(Desktop.class);
     	dt2.compile();
     	
     	Alien al= context.getBean(Alien.class);
