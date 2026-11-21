@@ -9,6 +9,7 @@ public class User {
 	@Autowired
 	Laptop laptop;
 
+
 	public void code() {
 		laptop.compile();
 		System.out.println("Coding...");}
